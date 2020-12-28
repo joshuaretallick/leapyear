@@ -7,15 +7,25 @@ All years divisible by 4 and not by 100 ARE leap years (e.g. 2004, 2008 and 2012
 All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were not leap years)
 
 Input : year
+
 Example Input : 2000
+
 Example Output : TRUE
 
 Input   |   Output
+
 400     |   True # Divisible by 400
+
 19200   |   True # Divisible by 400
+
 100     |   False # Divisible by 100 BUT NOT 400
+
 500     |   False # Divisible by 100 BUT NOT 400
+
 4       |   True # Divisible by 4 BUT NOT 100
+
 1872    |   True # Divisible by 4 BUT NOT 100
+
 5       |   False # Not divisible by 4
+
 25369   |   False # Not divisible by 4
